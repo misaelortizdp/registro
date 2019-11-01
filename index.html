@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>  Registro civil  </title>
+     
+    <link href="css/styles.css" rel="stylesheet" type="text/css" >
+
+
+<script type="text/javascript" src="js/codigo.js"></script>
+
+
+	
+</head>
+<body>
+
+
+<div id=hoja>
+
+<p id="textovol"> -ORIGINAL PARA LA OFICINA DE REGISTRO-</p>
+
+
+<header>
+
+	<p  id="republica">  REPÚBLICA DE COLOMBIA</p>
+    <div id=imagen>
+            <img src="img/Logo.png" height="70" width="70" />
+    </div>
+
+    <div id="parrafo">
+    <p > ORGANIZACION ELECTORAL </p>
+    <p>REGISTRADURIA NACIONAL DEL ESTADO CIVIL</p>
+    <p>DIRECCION NACIONAL DE REGISTRO CIVIL</p> 
+    </div>
+
+    <div id="registro">
+    	<p>REGISTRO CIVIL</p>
+    	<p>DE NACIMIENTO</p>
+    </div>
+
+    
+      <div id="serial">
+    	<p>Indicativo</p>
+    	<p>Serial</p>
+    </div>
+
+    
+    <input type="number" id="inputserial"> 
+
+    <div id="bordenuip"> 
+
+      <div id="nuip">  <p> NUIP </p>  </div>
+      <input type="number" id="inputnuip">
+
+    </div>
+       
+
+
+</header>
+
+<div id="bloque1">
+	
+	<div id="fila1b1" > <p class="titulo">Datos de la oficina de registro - Clase de oficina </p>  </div>
+
+	<div id="fila2b1">
+
+	
+		
+		<div id="col1f2b1" >
+
+
+         <input type="checkbox">
+		<p class="atributo">Registraduria</p>  
+		</div>
+
+
+		<div id="col2f2b1">
+
+		    <input type="checkbox">
+		    <p class="atributo"> Notaria</p> 
+
+            <span class="atributo"> Número </span>
+
+            <input id="casilla1" type="number" maxlength="1" >
+         
+
+	    </div>
+
+
+		<div id="col3f2b1">    
+            <input type="checkbox">
+		    <p class="atributo"> Consulado</p> 
+
+		</div>
+             
+
+		<div id="col4f2b1">
+			<input type="checkbox">
+		    <p class="atributo"> Corregimiento</p> 
+
+		</div>
+
+		<div id="col5f2b1">
+              <input type="checkbox">
+		    <p class="atributo"> Inspeccion de Policia</p> 
+
+		</div>
+		<div id="col6f2b1">
+
+		    <div> <p class="atributo">Código</p></div>
+            <input type="text">
+             
+
+		</div>
+
+
+	</div>
+
+
+	<div id="fila3b1"> <p class="atributo">Pais - Departamento - Munucipio - corregimiento e/o Inspeccion de policia</p></div>
+
+	<div id="fila4b1"> 
+<input type="text">
+
+	</div>
+
+
+	
+	
+       </div>
+
+<div id="bloque2">
+
+
+	
+	<div id="fila1b2" >  <p class="titulo">Datos del inscrito</p> </div>
+	<div id="fila2b2">
+		<div id="col1f2b2" class="atributo"> Primer Apellido</div>
+		<div id="col2f2b2" class="atributo"> Segundo Apellido</div>
+ 
+	</div>
+	<div id="fila3b2">
+		<div id="col1f3b2" > 
+
+        <input type="text" class="input">
+
+		</div>
+
+		<div id="col2f3b2" >
+
+		<input class="input" type="text"> 
+
+		</div>
+
+	</div>
+
+
+	<div id="fila4b2" class="atributo">
+	 Nombre(s)
+
+	</div>
+
+	<div id="fila5b2">
+
+        <input class="input" type="text">
+
+
+	   </div>
+	<div id="fila6b2">
+	       
+        <div id="col1f6b2" class="atributo"> Fecha de nacimiento</div>
+		<div id="col2f6b2" class="atributo" > Sexo (en letras) </div>
+		<div id="col3f6b2" class="atributo"> Grupo sanguineo </div>
+		<div id="col4f6b2" class="atributo">Factor RH</div>
+
+
+
+
+	</div>
+	<div id="fila7b2">
+		
+
+
+        <div id="col1f7b2" >
+        	
+
+               <input type="date" name="fecha">
+
+
+
+        </div>
+
+
+		<div id="col2f7b2"  >
+			<input class="input" type="text">
+
+		</div>
+		<div id="col3f7b2" >
+			
+			 <input class="input" type="text">
+		</div>
+		<div id="col4f7b2" >
+			
+			<input class="input" type="text">
+		</div>
+
+
+
+	</div>
+	<div id="fila8b2" class="atributo">  Lugar de nacimiento(Pais - Departamento - Municipio - Corregimiento e/o inspeccion) </div>
+
+	<div id="fila9b2" >   
+	 <input class="input" type="text">
+	  </div>
+	
+</div>
+
+<div id="bloque3">
+   <div id="fila1b3">  
+         <div id="col1f1b3" class="atributo">  
+         Tipo de documento antecedente o declaracion de testigos   </div>
+         <div id="col2f1b3" class="atributo">  Número certificado de nacido vivo </div>
+    </div>
+	 <div id="fila2b3">  
+         <div id="col1f2b3">   
+             
+             <input class="input" type="text">
+
+          </div>
+         <div id="col2f2b3" >   
+             
+             <input class="input" type="text">
+
+
+
+            </div>
+    </div>
+	
+</div>
+
+<div class="bloque" id="bloque4">
+
+	
+	<div class="fila"  id="fila1b4"> <p class="titulo"> Datos de la madre </p>  </div>
+	<div class="fila" id="fila2b4"> <p class="atributo"> Apellidos y nombres completos</p></div>
+
+	<div class="fila" id="fila3b4">
+		
+     <input class="input" type="text">
+
+
+	</div>
+	<div class="fila" id="fila4b4">  
+
+     <div id="col1f4b4" class="atributo">  Documento de identificacion(Clase y numero)   </div>
+
+     <div id="col2f4b4" class="atributo">   Nacionalidad   </div>
+
+	</div>
+
+	<div class="fila" id="fila5b4">  
+       <div id="col1f5b4">  
+
+       <input class="input" type="text">    </div>
+
+       <div id="col2f5b4">    
+
+       <input class="input" type="text">
+
+        </div>
+
+	 </div>
+	 
+
+	
+	
+</div>
+
+<div class="bloque" id="bloque5">
+
+
+	<div class="fila" id="fila1b5">  <p class="titulo"> Datos del padre </p> </div>
+	<div class="fila" id="fila2b5"> <p class="atributo" > Apellidos y nombres completos </p></div>
+	<div class="fila" id="fila3b5">
+		
+        <input class="input" type="text">
+
+	</div>
+	<div class="fila" id="fila4b5">  
+
+     <div id="col1f4b5" class="atributo">  Documento de identificacion(Clase y numero)   </div>
+
+     <div id="col2f4b5" class="atributo">   Nacionalidad    </div>
+
+	</div>
+
+	<div class="fila" id="fila5b5">  
+       <div id="col1f5b5">    
+              <input class="input" type="text">
+
+         </div>
+
+       <div id="col2f5b5">     
+
+               <input class="input" type="text">
+       </div>
+
+	 </div>
+	 
+
+	
+	
+</div>
+
+<div class="bloque" id="bloque6">
+
+
+	
+	<div class="fila" id="fila1b6"><p class="titulo"> Datos del primer declarante</p></div>
+	<div class="fila" id="fila2b6"> <p class="atributo" > Apellidos y nombres completos </p> </div>
+	<div class="fila" id="fila3b6">
+		
+          <input class="input" type="text">
+
+	</div>
+	<div class="fila" id="fila4b6">  
+
+     <div id="col1f4b6" class="atributo">  Documento de identificacion(Clase y numero) </div>
+
+     <div id="col2f4b6" class="atributo">  Firma    </div>
+
+	</div>
+
+	<div class="fila" id="fila5b6">  
+       <div id="col1f5b6"> 
+
+        <input class="input" type="text">  </div>
+
+       <div id="col2f5b6">  
+              
+              <input class="input" type="text">
+
+        </div>
+
+	 </div>
+	 
+
+	
+	
+</div>
+
+
+<div class="bloque" id="bloque7">
+
+
+	<div class="fila" id="fila1b7">  <p class="titulo">Datos primer testigo</p>  </div>
+	<div class="fila" id="fila2b7"> <p class="atributo" > Apellidos y nombres completos </p> </div>
+	<div class="fila" id="fila3b7">
+		
+         <input class="input" type="text">
+
+	</div>
+	<div class="fila" id="fila4b7">  
+
+     <div id="col1f4b7" class="atributo">  Documento de identificacion(Clase y numero)    </div>
+
+     <div id="col2f4b7" class="atributo">  Firma     </div>
+
+	</div>
+
+	<div class="fila" id="fila5b7">  
+       <div id="col1f5b7">    
+            
+            <input class="input" type="text">
+
+         </div>
+
+       <div id="col2f5b7">  
+
+           <input class="input" type="text">
+
+          </div>
+
+	 </div>
+	 
+
+	
+	
+</div>
+
+<div class="bloque" id="bloque8">
+
+
+	
+	<div class="fila" id="fila1b8"> <p class="titulo">Datos segundo testigo  </p> </div>
+	<div class="fila" id="fila2b8">  <p class="atributo" > Apellidos y nombres completos </p> </div>
+	<div class="fila" id="fila3b8">
+		
+       <input class="input" type="text">
+
+	</div>
+	<div class="fila" id="fila4b8">  
+
+     <div id="col1f4b8" class="atributo">  Documento de identificacion(Clase y numero)   </div>
+
+     <div id="col2f4b8" class="atributo">  Firma     </div>
+
+	</div>
+
+	<div class="fila" id="fila5b8">  
+       <div id="col1f5b8">   
+           
+           <input class="input" type="text">
+
+          </div>
+
+       <div id="col2f5b8">  
+
+           <input class="input" type="text">
+
+         </div>
+
+	 </div>
+	 
+
+	
+	
+</div>
+
+<div class="bloque" id="bloque9">
+
+<div class="fila" id="fila1b9">  
+
+     <div id="col1f1b9" class="titulo">  Fecha de inscripcion   </div>
+
+     <div id="col2f1b9" class="titulo">    Nombre y firma del funcionario que autoriza  </div>
+
+	</div>
+
+	<div class="fila" id="fila2b9">  
+       <div id="col1f2b9">    
+
+
+           <input type="date" name="fecha">
+ 
+         </div>
+
+       <div id="col2f2b9">  
+
+       <input class="input" type="text">
+
+         <div class="firma" >	 Nombre y firma </div>
+
+          </div>
+
+	 </div>
+
+
+</div>
+
+
+<div class="bloque" id="bloque10">
+
+<div class="fila" id="fila1b10">  
+
+     <div id="col1f1b10" class="titulo"    >Reconocimiento paterno   </div>
+
+     <div id="col2f1b10" class="titulo"> Nombre y firma del funcionario ante quien se hace el reconocimiento   </div>
+
+	</div>
+
+	<div class="fila" id="fila2b10">  
+       <div id="col1f2b10"> 
+
+                <input class="input" type="text">
+
+               <div class="firma" >	Firma </div>
+
+        </div>
+
+       <div id="col2f2b10">   
+
+               <input class="input" type="text">
+              <div class="firma" >	 Nombre y firma </div>
+
+         </div>
+
+	 </div>
+
+
+</div>
+
+<div class="bloque" id="bloque11">
+
+<div class="fila" id="fila1b11">  
+
+ESPACIO PARA NOTAS
+	</div>
+
+	<div class="fila" id="fila2b11">  
+       <div id="col1f2b11">   
+
+           <input class="input" type="text">
+
+
+         </div>
+
+       <div id="col2f2b11">   
+
+             <input class="input" type="text">
+
+         </div>
+
+	 </div>
+
+
+</div>
+
+
+
+	
+  
+  
+
+
+</div>
+</body>
+</html>
